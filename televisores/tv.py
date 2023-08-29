@@ -1,9 +1,9 @@
 class TV:
-    _numTV = 0
+    numTV = 0
     def __init__(self,marca,estado):
         self._marca = marca
         self._estado = estado
-        TV._numTV = TV._numTV + 1
+        TV.numTV = TV.numTV + 1
 
         self._canal = 1
         self._precio = 500
@@ -43,7 +43,7 @@ class TV:
 
     @staticmethod
     def getNumTV():
-        return TV._numTV
+        return TV.numTV
 
     @staticmethod
     def setNumTV(numTV):
