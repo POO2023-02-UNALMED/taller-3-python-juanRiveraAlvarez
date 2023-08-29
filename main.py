@@ -7,7 +7,7 @@ if __name__ == "__main__":
     from testatributos import testContadorTVs
 
     testContadorTVs()
-
+    print(TV.getNumTV())
     #marca1 = Marca("Semsung")
     #marca2 = Marca("Lj")
 
